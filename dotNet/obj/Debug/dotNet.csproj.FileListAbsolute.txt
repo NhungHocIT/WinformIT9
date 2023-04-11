@@ -1,0 +1,12 @@
+D:\.Net\dotNet\bin\Debug\dotNet.exe.config
+D:\.Net\dotNet\bin\Debug\dotNet.exe
+D:\.Net\dotNet\bin\Debug\dotNet.pdb
+D:\.Net\dotNet\obj\Debug\dotNet.csproj.AssemblyReference.cache
+D:\.Net\dotNet\obj\Debug\dotNet.csproj.SuggestedBindingRedirects.cache
+D:\.Net\dotNet\obj\Debug\dotNet.Form1.resources
+D:\.Net\dotNet\obj\Debug\dotNet.Properties.Resources.resources
+D:\.Net\dotNet\obj\Debug\dotNet.csproj.GenerateResource.cache
+D:\.Net\dotNet\obj\Debug\dotNet.csproj.CoreCompileInputs.cache
+D:\.Net\dotNet\obj\Debug\dotNet.exe
+D:\.Net\dotNet\obj\Debug\dotNet.pdb
+D:\.Net\dotNet\obj\Debug\dotNet.fAdmin.resources
