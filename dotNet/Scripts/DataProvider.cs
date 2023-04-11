@@ -25,7 +25,7 @@ namespace dotNet
 
         private DataProvider() { }
 
-        string strCon //= @"Data Source=LAPTOP-89GT2MJ0\KTEAM;Initial Catalog=Hoc;Integrated Security=True";
+        string strCon
             = @"Data Source=LAPTOP-89GT2MJ0\KTEAM;Initial Catalog=CoffeeManagement;Integrated Security=True";
         
         public DataTable ExecuteQuery(string query, object[] parameter = null)

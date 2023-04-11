@@ -10,3 +10,16 @@ D:\.Net\dotNet\obj\Debug\dotNet.csproj.CoreCompileInputs.cache
 D:\.Net\dotNet\obj\Debug\dotNet.exe
 D:\.Net\dotNet\obj\Debug\dotNet.pdb
 D:\.Net\dotNet\obj\Debug\dotNet.fAdmin.resources
+D:\.Net\BTL\dotNet\bin\Debug\dotNet.exe.config
+D:\.Net\BTL\dotNet\bin\Debug\dotNet.exe
+D:\.Net\BTL\dotNet\bin\Debug\dotNet.pdb
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.csproj.AssemblyReference.cache
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.csproj.SuggestedBindingRedirects.cache
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.fAdmin.resources
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.fLogin.resources
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.fStaff.resources
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.Properties.Resources.resources
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.csproj.GenerateResource.cache
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.csproj.CoreCompileInputs.cache
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.exe
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.pdb

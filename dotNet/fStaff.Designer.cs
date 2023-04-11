@@ -1,6 +1,6 @@
 ﻿namespace dotNet
 {
-    partial class fAdmin
+    partial class fStaff
     {
         /// <summary>
         /// Required designer variable.
@@ -28,31 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtgvAcount = new System.Windows.Forms.DataGridView();
-            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            this.flpTable = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvAcount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dtgvAcount
+            // flpTable
             // 
-            this.dtgvAcount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvAcount.Location = new System.Drawing.Point(80, 71);
-            this.dtgvAcount.Name = "dtgvAcount";
-            this.dtgvAcount.RowHeadersWidth = 51;
-            this.dtgvAcount.RowTemplate.Height = 24;
-            this.dtgvAcount.Size = new System.Drawing.Size(431, 313);
-            this.dtgvAcount.TabIndex = 0;
-            // 
-            // fileSystemWatcher1
-            // 
-            this.fileSystemWatcher1.EnableRaisingEvents = true;
-            this.fileSystemWatcher1.SynchronizingObject = this;
+            this.flpTable.Location = new System.Drawing.Point(29, 64);
+            this.flpTable.Name = "flpTable";
+            this.flpTable.Size = new System.Drawing.Size(611, 500);
+            this.flpTable.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(725, 361);
+            this.button1.Location = new System.Drawing.Point(920, 518);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -60,25 +49,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // fAdmin
+            // fStaff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(822, 450);
+            this.ClientSize = new System.Drawing.Size(1019, 599);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dtgvAcount);
-            this.Name = "fAdmin";
-            this.Text = "fAdmin";
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvAcount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
+            this.Controls.Add(this.flpTable);
+            this.Name = "fStaff";
+            this.Text = "fStaff";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dtgvAcount;
-        private System.IO.FileSystemWatcher fileSystemWatcher1;
+        private System.Windows.Forms.FlowLayoutPanel flpTable;
         private System.Windows.Forms.Button button1;
     }
 }

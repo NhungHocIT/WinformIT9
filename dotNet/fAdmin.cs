@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dotNet.Scripts;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace dotNet
         public fAdmin()
         {
             InitializeComponent();
+        }
+
+        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

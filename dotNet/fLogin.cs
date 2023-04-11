@@ -20,17 +20,17 @@ namespace dotNet
         
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            string id = txtID.Text;
+            string userName = txtID.Text;
             string pass = txtPas.Text;
             string query 
-                = "SELECT * FROM dbo.TaiKhoan WHERE taiKhoan = '" + id + "' AND matKhau = '" + pass + "'";
+                = "select * from dbo.Account where UserName = '"+userName+"' and Password = '"+pass+"'";
 
             DataTable result = DataProvider.Ins.ExecuteQuery(query);
 
             if (result.Rows.Count > 0) { 
                 this.Hide();
-                fAdmin fAdmin = new fAdmin();
-                fAdmin.ShowDialog();
+                fStaff fStaff= new fStaff();
+                fStaff.ShowDialog();
                 this.Show();
             }
             else
