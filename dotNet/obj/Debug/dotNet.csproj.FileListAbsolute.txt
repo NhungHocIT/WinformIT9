@@ -23,3 +23,4 @@ D:\.Net\BTL\dotNet\obj\Debug\dotNet.csproj.GenerateResource.cache
 D:\.Net\BTL\dotNet\obj\Debug\dotNet.csproj.CoreCompileInputs.cache
 D:\.Net\BTL\dotNet\obj\Debug\dotNet.exe
 D:\.Net\BTL\dotNet\obj\Debug\dotNet.pdb
+D:\.Net\BTL\dotNet\obj\Debug\dotNet.Pay.resources

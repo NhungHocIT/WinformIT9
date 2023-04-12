@@ -20,23 +20,23 @@ namespace dotNet
         
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            string userName = txtID.Text;
-            string pass = txtPas.Text;
-            string query 
-                = "select * from dbo.Account where UserName = '"+userName+"' and Password = '"+pass+"'";
+            //string userName = txtID.Text;
+            //string pass = txtPas.Text;
+            //string query 
+            //    = "select * from dbo.Account where UserName = '"+userName+"' and Password = '"+pass+"'";
 
-            DataTable result = DataProvider.Ins.ExecuteQuery(query);
+            //DataTable result = DataProvider.Ins.ExecuteQuery(query);
 
-            if (result.Rows.Count > 0) { 
+            //if (result.Rows.Count > 0) { 
                 this.Hide();
                 fStaff fStaff= new fStaff();
                 fStaff.ShowDialog();
                 this.Show();
-            }
-            else
-            {
-                MessageBox.Show($"TryAgain! {result}");
-            }
+            //}
+            //else
+            //{
+            //    MessageBox.Show($"TryAgain! {result}");
+            //}
         }
     }
 }

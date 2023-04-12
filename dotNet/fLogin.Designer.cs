@@ -97,13 +97,14 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Tài Khoản";
             // 
-            // Form1
+            // fLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 308);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "fLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

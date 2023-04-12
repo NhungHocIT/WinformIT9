@@ -37,7 +37,7 @@ namespace dotNet.Scripts
             return list;
         }
 
-        public static int TableWidth = 50;
-        public static int TableHeight = 50;
+        public static int TableWidth = 150;
+        public static int TableHeight = 150;
     }
 }
